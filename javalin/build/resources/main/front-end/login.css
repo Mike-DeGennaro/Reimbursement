@@ -1,0 +1,53 @@
+body {
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+p {
+  text-align: center;
+}
+label {
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+  margin: auto;
+  display: block;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  border-radius: 10px;
+  outline: none;
+  height: 27px;
+  border: 2px solid black;
+}
+
+#submit {
+  width: 70px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: 1.5px solid white;
+  transition: all 0.5s;
+}
+#submit:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  border: 1.5px solid black;
+}

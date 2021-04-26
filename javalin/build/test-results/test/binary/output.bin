@@ -1,0 +1,3 @@
+In create ticket test
+I2021-04-02 09:21:25 INFO  FrontController:149 - JDBC adding ticket type
+K2021-04-02 09:21:25 INFO  FrontController:163 - JDBC adding ticket status

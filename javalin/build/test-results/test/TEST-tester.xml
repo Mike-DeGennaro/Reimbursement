@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tester" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-02T13:21:24" hostname="LAPTOP-NBR9JH7N" time="1.521">
+  <properties/>
+  <testcase name="test1()" classname="tester" time="1.521"/>
+  <system-out><![CDATA[In create ticket test
+2021-04-02 09:21:25 INFO  FrontController:149 - JDBC adding ticket type
+2021-04-02 09:21:25 INFO  FrontController:163 - JDBC adding ticket status
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

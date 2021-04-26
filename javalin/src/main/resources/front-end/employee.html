@@ -1,0 +1,53 @@
+<html>
+    <link rel="stylesheet" href="employee.css">
+
+  <head>
+  </head>
+  
+  <body>
+  <button type="button" id="logout" onclick="logout()">Logout</button>
+
+  <h1 id='hello'>s</h1>
+
+    <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Time Submitted</th>
+            <th>Resolved</th>
+            <th>Status</th>
+            <th>Message</th>
+          </tr>
+        </thead>
+        <tbody id="table">
+
+        </tbody>
+      </table>
+      <h2>Submit a new ticket</h2>
+      <form>
+
+  <br>
+  <label for="type" id="type">Type:</label><br>
+  <select id="type" name="ticket">
+    <option value="1">Lodging</option>
+    <option value="2">Travel</option>
+    <option value="3">Food</option>
+    <option value="4">Other</option>
+  </select>
+  <br>
+  <label for="quantity" id="label">Amount:</label><br>
+  <input type="number" id="number" name="amount" min="1" max="1000000">
+  <br>
+  <label for="box" id="label">Any additional information:</label><br>
+  <textarea rows = "5" cols = "60" name = "box" id="message"></textarea><br>
+  <input type = "submit" value = "submit" id="submit" onclick="add(event)"/>
+    </form>
+
+  </body>
+  
+  <script src="login.js"></script>
+  <script src="employee.js"></script>
+
+  <footer></footer>
+</html>
